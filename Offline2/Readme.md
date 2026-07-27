@@ -3,6 +3,8 @@
 > **Course:** CSE 310 – Compiler Sessional  
 > **Assignment:** Lexical Analysis using Flex  
 > **Language:** C++ with Flex (Lex)
+> **Author:** Saif Al Islam
+> **Student ID:** 2205119
 
 ---
 
