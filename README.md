@@ -133,8 +133,3 @@ make clean
 
 - **Saif (2205119)** - Department of Computer Science & Engineering, Bangladesh University of Engineering & Technology (BUET)
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
