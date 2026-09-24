@@ -1,0 +1,33 @@
+# Build outputs and executables
+compiler.out
+*.out
+*.o
+*.obj
+*.class
+
+# ANTLR4 generated sources
+generated/
+.antlr/
+
+# Python Virtual Environment
+antlr4_venv/
+
+# Large media files (>100MB rejected by GitHub)
+*.mp4
+Antlr.mp4
+
+# Runtime output logs
+log.txt
+error.txt
+lexLogFile.txt
+
+# Archive files (preserve submission zip)
+*.zip
+!submission/*.zip
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp

@@ -1,0 +1,44 @@
+# Build outputs and executables
+compiler.out
+code.out
+opt.out
+*.out
+*.o
+*.obj
+*.class
+
+# Assembly files generated at runtime
+*.asm
+2205119_code.asm
+optimizedcode.asm
+
+# ANTLR4 generated sources
+generated/
+.antlr/
+
+# Python Virtual Environment
+antlr4_venv/
+
+# Large archives (>100MB rejected by GitHub)
+*.zip
+Assignment 4 ICG Resources-20260826T092305Z-1-001.zip
+!submission/*.zip
+
+# Runtime logs and test artifacts (preserve test/output.txt)
+log.txt
+error.txt
+lexLogFile.txt
+actual.txt
+expected.txt
+out*.txt
+output1.txt
+output2.txt
+!phase2/test/output.txt
+!submission/2205119_P2/input/output.txt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp

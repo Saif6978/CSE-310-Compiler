@@ -1,0 +1,25 @@
+# Compiled binaries and generated sources
+lexer
+lex.yy.c
+src/lex.yy.c
+*.o
+*.out
+
+# Generated token and log outputs
+token*.txt
+log*.txt
+output.txt
+2205119_token.txt
+2205119_log.txt
+
+# Editor and system artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary build folders
+build/
+bin/

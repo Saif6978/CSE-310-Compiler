@@ -1,0 +1,26 @@
+# Compiled binaries and objects
+*.o
+*.out
+symbol_table
+
+# Execution and test output
+output.txt
+test/output.txt
+*.log
+
+# Large media files (exceeds GitHub 100MB file limit)
+*.mp4
+*.avi
+*.mkv
+
+# Temporary files & editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+bin/

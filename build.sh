@@ -4,9 +4,9 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-echo "=== Building Phase 1 (Intermediate Code Generator) ==="
+echo "=== Building All CSE 310 Compiler Projects ==="
 make all
 
 echo ""
-echo "=== Running Phase 1 Test Suite ==="
+echo "=== Running Complete Verification Suite ==="
 make test

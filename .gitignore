@@ -1,0 +1,45 @@
+# Build artifacts and executables
+*.out
+*.o
+*.obj
+*.class
+lexer
+symbol_table
+compiler.out
+code.out
+opt.out
+
+# Intermediate and generated assembly
+*.asm
+2205119_code.asm
+optimizedcode.asm
+
+# ANTLR4 generated sources
+generated/
+.antlr/
+
+# Python Virtual Environments
+antlr4_venv/
+
+# Large media files (>100MB rejected by GitHub)
+*.mp4
+*.zip
+!**/submission/*.zip
+
+# Runtime logs and test artifacts
+log.txt
+error.txt
+lexLogFile.txt
+actual.txt
+expected.txt
+out*.txt
+!**/test/output.txt
+!**/test/input*.txt
+!**/test/sample_output.txt
+
+# Temporary / editor files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp

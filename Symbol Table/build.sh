@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
 # Compile with AddressSanitizer and C++17
 echo "Compiling Symbol Table..."
 g++ -std=c++17 -Wall -Wextra -fsanitize=address -g -Iinclude src/main.cpp -o symbol_table
